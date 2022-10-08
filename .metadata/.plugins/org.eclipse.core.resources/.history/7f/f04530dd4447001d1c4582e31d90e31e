@@ -1,0 +1,9 @@
+package dol;
+
+public class Libro {
+	String titulo;
+	String editorial;
+	String edicion;
+	int añoDePublicacion;
+
+}

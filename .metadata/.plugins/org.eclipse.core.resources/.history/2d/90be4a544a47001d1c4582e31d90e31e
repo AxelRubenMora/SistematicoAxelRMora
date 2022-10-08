@@ -1,0 +1,38 @@
+package ui;
+
+import java.util.List;
+import java.util.Scanner;
+
+import dol.Libro;
+
+public class BookForm {
+	private Scanner scan;
+	private Libro libro;
+	private List<Libro>libros;
+	public BookForm(Scanner scan) {
+		super();
+		this.scan = scan;
+	}
+	public BookForm(Libro libro) {
+		super();
+		this.libro = libro;
+	}
+	public BookForm(List<Libro> libros) {
+		super();
+		this.libros = libros;
+	}
+	
+	public Libro crearLibro() {
+		Libro li= new Libro();
+		System.out.println("Digite el Titulo del libro: ");
+		li.setTitulo(scan.next());
+		System.out.println("Digite el anio ed publicacion: ");
+		li.setAnioDePublicacion(scan.nextInt()); 
+		System.out.println("Digite la edicion del ejemplar:");
+		li.setEdicion(scan.next());
+		System.out.println("Digite el nombre de la editorial del libro: ");
+		li.setEditorial(scan.next());
+		return li;
+	}
+	
+}

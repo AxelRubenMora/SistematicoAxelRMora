@@ -1,0 +1,13 @@
+package ui;
+
+import java.util.List;
+import java.util.Scanner;
+
+import dol.Libro;
+
+public class BookForm {
+	private Scanner scan;
+	private Libro libro;
+	private List<Libro>libros;
+	
+}

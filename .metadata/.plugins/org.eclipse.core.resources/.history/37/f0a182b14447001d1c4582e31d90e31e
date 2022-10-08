@@ -1,0 +1,33 @@
+package dol;
+
+public class Persona {
+	String primerNombre;
+	String SegundoNombre;
+	String primerApellido;
+	String SegundoApellido;
+	public String getPrimerNombre() {
+		return primerNombre;
+	}
+	public void setPrimerNombre(String primerNombre) {
+		this.primerNombre = primerNombre;
+	}
+	public String getSegundoNombre() {
+		return SegundoNombre;
+	}
+	public void setSegundoNombre(String segundoNombre) {
+		SegundoNombre = segundoNombre;
+	}
+	public String getPrimerApellido() {
+		return primerApellido;
+	}
+	public void setPrimerApellido(String primerApellido) {
+		this.primerApellido = primerApellido;
+	}
+	public String getSegundoApellido() {
+		return SegundoApellido;
+	}
+	public void setSegundoApellido(String segundoApellido) {
+		SegundoApellido = segundoApellido;
+	}
+	
+}

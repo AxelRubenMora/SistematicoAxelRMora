@@ -1,0 +1,10 @@
+package dol;
+
+public class Libro {
+	String primerNombre;
+	String SegundoNombre;
+	String primerApellido;
+	String SegundoApellido;
+	
+
+}

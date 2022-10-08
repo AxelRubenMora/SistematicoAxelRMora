@@ -1,0 +1,9 @@
+package dol;
+
+public class Persona {
+	String primerNombre;
+	String SegundoNombre;
+	String primerApellido;
+	String SegundoApellido;
+	
+}

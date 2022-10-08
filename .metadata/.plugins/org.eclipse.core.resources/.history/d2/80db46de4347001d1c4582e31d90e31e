@@ -1,0 +1,47 @@
+package dol;
+
+public class Autor {
+	String primerNombre;
+	String SegundoNombre;
+	String primerApellido;
+	String SegundoApellido;
+	
+	public Autor(String primerNombre, String segundoNombre, String primerApellido, String segundoApellido) {
+		super();
+		this.primerNombre = primerNombre;
+		SegundoNombre = segundoNombre;
+		this.primerApellido = primerApellido;
+		SegundoApellido = segundoApellido;
+	}
+	public Autor() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public String getPrimerNombre() {
+		return primerNombre;
+	}
+	public void setPrimerNombre(String primerNombre) {
+		this.primerNombre = primerNombre;
+	}
+	public String getSegundoNombre() {
+		return SegundoNombre;
+	}
+	public void setSegundoNombre(String segundoNombre) {
+		SegundoNombre = segundoNombre;
+	}
+	public String getPrimerApellido() {
+		return primerApellido;
+	}
+	public void setPrimerApellido(String primerApellido) {
+		this.primerApellido = primerApellido;
+	}
+	public String getSegundoApellido() {
+		return SegundoApellido;
+	}
+	public void setSegundoApellido(String segundoApellido) {
+		SegundoApellido = segundoApellido;
+	}
+	
+	
+	
+}
